@@ -1,6 +1,6 @@
 #include "roBa.dtsi"
 
-&kscan0 {
+&kscan1 {
         col-gpios
             = <&xiao_d 10 GPIO_ACTIVE_HIGH>
             , <&xiao_d 9 GPIO_ACTIVE_HIGH> 
