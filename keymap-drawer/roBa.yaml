@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: roBa}
 layers:
   default:
-  - Q
+  - A
   - W
   - E
   - R
