@@ -24,6 +24,20 @@
         parts = [ "L" "R" ];
         enableZmkStudio = true;
         toolchain = "zephyr-full";
+        snippets = [ "studio-rpc-usb-uart" ];
+
+        nativeBuildInputs = with nixpkgs.legacyPackages.${system}; [
+          protobuf
+          dtc
+          (python3.withPackages (ps: with ps; [
+            setuptools
+            protobuf
+            pip
+            grpcio
+            grpcio-tools
+          ]))
+        ];
+
         zephyrDepsHash = "sha256-YkNPlLZcCguSYdNGWzFNfZbJgmZUhvpB7DRnj++XKqQ=";
 
         meta = {
