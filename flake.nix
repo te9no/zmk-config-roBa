@@ -22,7 +22,7 @@
         board = "seeeduino_xiao_ble";
         shield = "roBa_%PART%";
         parts = [ "L" "R" ];
-        
+        enableZmkStudio = true;
         zephyrDepsHash = "sha256-YkNPlLZcCguSYdNGWzFNfZbJgmZUhvpB7DRnj++XKqQ=";
 
         meta = {
