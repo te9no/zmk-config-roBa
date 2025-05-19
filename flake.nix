@@ -23,7 +23,7 @@
         shield = "roBa_%PART%";
         parts = [ "L" "R" ];
         
-        zephyrDepsHash = "sha256-YkNPlLZcCguSYdNGWzFNfZbJgmZUhvpB7DRnj++XKqQ=";
+        zephyrDepsHash = "";
 
         meta = {
           description = "ZMK firmware";
