@@ -23,6 +23,7 @@
         shield = "roBa_%PART%";
         parts = [ "L" "R" ];
         enableZmkStudio = true;
+        toolchain = "zephyr-full";
         zephyrDepsHash = "sha256-YkNPlLZcCguSYdNGWzFNfZbJgmZUhvpB7DRnj++XKqQ=";
 
         meta = {
