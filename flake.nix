@@ -22,9 +22,7 @@
         board = "seeeduino_xiao_ble";
         shield = "roBa_%PART%";
         parts = [ "L" "R" ];
-        snippets = [ "zmk-usb-logging" ];
-        enableZmkStudio = true;
-
+        
         zephyrDepsHash = "sha256-YkNPlLZcCguSYdNGWzFNfZbJgmZUhvpB7DRnj++XKqQ=";
 
         meta = {
