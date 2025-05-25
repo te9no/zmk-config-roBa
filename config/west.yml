@@ -11,13 +11,13 @@ manifest:
   projects:
     - name: zmk
       remote: urob
-      revision: 254f525f8043d13ac861a95ed2c13f26b5b22beb
+      revision: 
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
-      revision: 5e04553ab803d24405bd45621a41310ea3050e59
+      revision: 
     - name: zmk-leader-key
       remote: urob
-      revision: 9dce878bfd6a4a7f34d9efa8251083250c1a33a3
+      revision: 
   self:
     path: config
